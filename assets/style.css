@@ -250,6 +250,10 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+#contact h2{
+	font-size: 28px;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
