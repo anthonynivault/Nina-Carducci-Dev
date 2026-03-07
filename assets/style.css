@@ -101,6 +101,12 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
+.gallery .nav-link {
+  cursor: pointer;
+}
+.gallery-item {
+  cursor: pointer;
+}
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
