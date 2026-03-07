@@ -201,7 +201,8 @@ body {
 	background-color: #D8D3A8 ;
 	position: relative;
 	padding-inline: 100px;
-	padding-block: 100px;
+	padding-block-start: 100px;
+	padding-block-end: 30px;
 }
 
 #contact .container {
@@ -211,15 +212,14 @@ body {
 	content: ' ';
 	background-color: #BEB45A;
 	width: 374px;
-	height: 329px;
+	height: 400px;
 	position: absolute;
-	bottom: 0;
 	right: 0;
 	z-index: -1;
+	margin-top: 200px;
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -268,8 +268,10 @@ input[type="submit"] {
 	#about-me__introduction, #about-me p {
 		width: 100%;
 	}
+	#contact {
+	padding-block-end: 80px;
+	}
 }
-
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
@@ -363,4 +365,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
