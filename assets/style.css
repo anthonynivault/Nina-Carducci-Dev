@@ -90,10 +90,6 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -108,7 +104,7 @@ body {
   cursor: pointer;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -199,7 +195,7 @@ body {
 }
 
 .service__price p{
-	font-size: 23px;
+	font-size: 20px;
 }
 
 #contact {
@@ -218,7 +214,7 @@ body {
 	content: ' ';
 	background-color: #BEB45A;
 	width: 374px;
-	height: 400px;
+	height: 437px;
 	position: absolute;
 	right: 0;
 	z-index: -1;
@@ -260,6 +256,14 @@ input[type="submit"] {
 	font-size: 28px;
 }
 
+#contact h3{
+	font-size: 20px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+.visually-hidden {
+	color: #000;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
